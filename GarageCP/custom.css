@@ -1,0 +1,257 @@
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+
+dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	color: #0F0F0F;
+	direction: rtl;
+}
+
+.jcarousel-prev, .jcarousel-next {
+	font-weight: normal;
+	color: white;
+}
+
+.jcarousel img {
+	border: solid 1px #584444;
+}
+
+#nav li:hover {
+	background: #09355b;
+}
+
+#nav a:hover {
+	color: #FF0000;
+}
+
+.archiveposts h3 {
+	color: #FD0000;
+}
+
+.archivememes h3 {
+	color: #FD0000;
+}
+
+/*color of mouse over*/
+#nav ul li:hover, #nav ul li.current-menu-item, #nav ul li.current-menu-ancestor, #nav ul li.current-menu-parrent {
+	background-color: #690000;
+}
+
+.dropdown ul li ul li a {
+	border-bottom: 1px solid #585858;
+}
+
+.dropdown ul li ul {
+	background: #6C747D;
+}
+
+ul.tabs_login li {
+	float: right;
+}
+
+#wp-user-control-usericon {
+	float: left;
+}
+
+.username input, .password input {
+	float: left;
+	width: 10em;
+	text-align: left;
+	direction: ltr;
+}
+
+.user-submit {
+	float: left;
+}
+
+.tab_container_login {
+	margin: 0;
+}
+
+.username label, .password label {
+	float: right;
+}
+
+ul.tabs_login {
+	margin: 0;
+}
+
+div.sharedaddy h3, #content div.sharedaddy h3, #main div.sharedaddy h3, #primary div.sharedaddy h3 {
+	float: right;
+}
+
+div.sharedaddy .sd-content {
+	float: right;
+}
+
+.tabbertab li {
+	float: right;
+}
+
+.widget a {
+	font-weight: normal;
+}
+
+div.navigation a:hover {
+	background-color: #963131;
+}
+
+div.navigation a {
+	color: #963131;
+}
+
+.archiveposts img {
+	max-width: 460px;
+}
+
+.cover_meme img {
+	max-width: 440px;
+	min-height: 280px;
+	float: left;
+}
+
+.postcontent_meme {
+	max-width: 200px;
+	float: right;
+}
+
+.postcontent_meme h2.title {
+	font-size: 16px;
+}
+
+.archiveposts .postcontent {
+	width: 470px;
+}
+
+#sidebar .social img {
+	float: right;
+	margin-left: 7px;
+}
+
+ul.tabbernav li:first-child {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 0;
+}
+
+ul.tabbernav li:first-child a:hover {
+	-webkit-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#postsSmall ul.pagination li a {
+	min-height: 50px;
+}
+
+ul.pagination li .postmetadata {
+	display: none;
+}
+
+.tabbertab li .meta {
+	display: none;
+}
+
+ul.tabbernav li {
+	float: right;
+}
+
+#footer p.copy {
+	color: #F0F0F0;
+}
+
+#fancybox-title-float-wrap {
+	direction: ltr;
+}
+
+.featContent p {
+	color: #A2A2A2;
+	font-size: 12px;
+}
+
+.metainfo {
+	padding: 5px 0 0 15px;
+	overflow: hidden;
+}
+
+#fancybox-title-float-wrap td {
+	direction: rtl;
+}
+
+#navigation {
+	font-size: 18px;
+}
+
+#nav li li {
+	font-size: 18px;
+}
+
+#nav2 a {
+	color: #FFFFFF;
+}
+
+#secondFooter {
+	font-size: 20px;
+}
+
+#footer p.copy {
+	font-size: 16px;
+}
+
+.entry {
+	font-size: 16px;
+}
+
+#nav a {
+	padding: 10px;
+}
+
+.page_navi {
+	text-align: center;
+}
+
+.page_navi li {
+	display: inline;
+	list-style: none;
+}
+
+.page_navi li.current span {
+	color: #000;
+	font-weight: bold;
+	display: inline-block;
+	padding: 3px 7px;
+	background: #fee;
+	border: solid 1px #fcc;
+}
+
+.page_navi li a {
+	color: #333;
+	padding: 3px 7px;
+	background: #eee;
+	display: inline-block;
+	border: solid 1px #999;
+	text-decoration: none;
+}
+
+.page_navi li a:hover {
+	color: #f00;
+}
+
+.page_navi li.page_nums span {
+	color: #fff;
+	padding: 3px 7px;
+	background: #666;
+	display: inline-block;
+	border: solid 1px #333;
+}
+
+div.navigation a {
+	line-height: 15px;
+}
